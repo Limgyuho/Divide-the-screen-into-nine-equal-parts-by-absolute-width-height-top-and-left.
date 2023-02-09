@@ -1,0 +1,51 @@
+section> div{
+    width: 33.3333%;
+    height: 33.3333%;
+    
+    position: absolute;
+}
+section>div:nth-child(1){
+    background-color: red;
+    top:0;
+    left:0;    
+}
+section>div:nth-child(2){
+    background-color: pink;
+    top:0;
+    left:33.3333%;    
+}
+section>div:nth-child(3){
+    background-color: blue;
+    top:0;
+    right:0;    
+}
+section>div:nth-child(4){
+    background-color: gold;
+    top:33.3333%;
+    left:0;    
+}
+section>div:nth-child(5){
+    background-color: green;
+    top:33.3333%;
+    left:33.3333%;    
+}
+section>div:nth-child(6){
+    background-color: black;
+    top:33.3333%;
+    right:0;    
+}
+section>div:nth-child(7){
+    background-color: purple;
+    bottom:0;
+    left:0;    
+}
+section>div:nth-child(8){
+    background-color: skyblue;
+    bottom:0;
+    left:33.3333%;    
+}
+section>div:nth-child(9){
+    background-color: gray;
+    bottom:0;
+    right:0;    
+}
